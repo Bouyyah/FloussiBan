@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kill alfo9ara2 Randomizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        
+        <ul class="social-media">
+            <li><p>made by:</p></li>
+            <li><a href="https://www.linkedin.com/in/bouyyah/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/bouyyah" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="mailto:ayyoubhamame@gmail.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <div class="logo">
+            <img src="./images/Floussi.png" alt="Logo">
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="first-section">
+            <div class="title">
+                <h1>Money Talks</h1>
+                <h3>"Speak Rich, Act Rich, Ban Poor <br>— Elite Chat Only!"</h3>
+            </div>
+            <div class="lkhdma">
+                <p>To find the YouTube video ID, look at the URL in the address bar when you open a video. The ID is the
+                    string after "v=" and before any "&".<br><br> For example, in the URL
+                    https://www.youtube.com/watch?v=V1ndkAyrLGI&ab_channel=OpenyourMind, the video ID is
+                    <strong>V1ndkAyrLGI</strong>.
+                </p>
+                <input type="text" id="videoId" placeholder="Enter Video ID">
+                <button onclick="fetchRandomUser()">ROLL</button>
+
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="result">
+                <h2>The banned</h2>
+                <div id="animatedName"></div> <!-- Div for the animated name -->
+                <div id="userMessage"></div> <!-- Div for the user's message -->
+            </div>
+           
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
