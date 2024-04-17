@@ -150,17 +150,5 @@ body, html {
     margin: 0;
   }
   
-  @media (max-width: 26.875rem) { /* 430px */
-    .first-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .result {
-      position: relative;
-      width: 25rem; /* 400px */
-      margin-top: 6.25rem; /* 100px */
-    }
-  }
+ 
   
